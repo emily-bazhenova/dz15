@@ -135,14 +135,13 @@ p {
 
 .partners-list {
   margin-top: 32px;
-  display: inline-flex;
-
+  display: flex;
   justify-content: space-between;
 }
 
 .partners-item {
-  max-width: 241px;
   text-align: center;
+  flex-basis: 241px;
 }
 
 .partners-img-wrapper {
